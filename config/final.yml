@@ -1,0 +1,5 @@
+name: awscli
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /tmp/awscli
