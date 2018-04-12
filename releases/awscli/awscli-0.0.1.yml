@@ -1,0 +1,21 @@
+name: awscli
+version: 0.0.1
+commit_hash: "4409069"
+uncommitted_changes: true
+jobs:
+- name: awscli
+  version: 3186093e88d4967c7daed38a611bf64d3b9c76fa
+  fingerprint: 3186093e88d4967c7daed38a611bf64d3b9c76fa
+  sha1: 9a0e45b3b53d8c7ad60c0486c47e06630e67e359
+packages:
+- name: awscli
+  version: b3701d3d5fb7b10d9e009ed3a9e399a7bb9e9787
+  fingerprint: b3701d3d5fb7b10d9e009ed3a9e399a7bb9e9787
+  sha1: 122fd504c701463fc03c5c7c5eeb848a058711fe
+  dependencies:
+  - python-2.7
+- name: python-2.7
+  version: 7063c9f4e43bf49374c2f6cc6c2f74a5467f2298
+  fingerprint: 7063c9f4e43bf49374c2f6cc6c2f74a5467f2298
+  sha1: bd130315766a7641dbd20aa328d16f084cc17965
+  dependencies: []
