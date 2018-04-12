@@ -2,6 +2,6 @@
 
 source /var/vcap/packages/python-2.7/bosh/compile.env
 
-unzip awscli/aswcli-bundle.zip
+unzip awscli/awscli-bundle.zip
 
 ./awscli-bundle/install -i $BOSH_INSTALL_TARGET
