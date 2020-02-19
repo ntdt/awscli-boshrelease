@@ -1,7 +1,5 @@
 #!/bin/bash -eu
 
-source /var/vcap/packages/python-2.7/bosh/compile.env
-
 unzip awscli/awscli-bundle.zip
 
-./awscli-bundle/install -i $BOSH_INSTALL_TARGET
+./aws/install -i ${BOSH_INSTALL_TARGET} -b ${BOSH_INSTALL_TARGET}/bin

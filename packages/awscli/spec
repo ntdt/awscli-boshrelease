@@ -2,7 +2,6 @@
 name: awscli
 
 dependencies:
-- python-2.7
 
 files:
 - awscli/awscli-bundle.zip
